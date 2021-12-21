@@ -1,5 +1,7 @@
 export class UpdateUserDto {
-    password: string;
     phone: number;
+    address: string;
     avatar: string;
+    company: string;
+    action: [String];
 }
